@@ -40,12 +40,7 @@ object BlockCompendium {
     val DARK_OAK_SIEVE = register(ModIdentifier("dark_oak_sieve"), SieveBlock(Blocks.DARK_OAK_PLANKS, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)))
     val ACACIA_SIEVE = register(ModIdentifier("acacia_sieve"), SieveBlock(Blocks.ACACIA_PLANKS, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)))
 
-    val OAK_VAT = register(ModIdentifier("oak_vat"), VatBlock(Blocks.OAK_PLANKS, true, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)))
-    val SPRUCE_VAT = register(ModIdentifier("spruce_vat"), VatBlock(Blocks.SPRUCE_PLANKS, true,FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)))
-    val BIRCH_VAT = register(ModIdentifier("birch_vat"), VatBlock(Blocks.BIRCH_PLANKS, true, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)))
-    val JUNGLE_VAT = register(ModIdentifier("jungle_vat"), VatBlock(Blocks.JUNGLE_PLANKS, true, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)))
-    val DARK_OAK_VAT = register(ModIdentifier("dark_oak_vat"), VatBlock(Blocks.DARK_OAK_PLANKS, true, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)))
-    val ACACIA_VAT = register(ModIdentifier("acacia_vat"), VatBlock(Blocks.ACACIA_PLANKS, true, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)))
+    val WOODEN_VAT = register(ModIdentifier("wooden_vat"), VatBlock(Blocks.OAK_PLANKS, true, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)))
     val STONE_VAT = register(ModIdentifier("stone_vat"), VatBlock(Blocks.STONE, false, FabricBlockSettings.copyOf(Blocks.STONE)))
     val ANDESITE_VAT = register(ModIdentifier("andesite_vat"), VatBlock(Blocks.ANDESITE, false, FabricBlockSettings.copyOf(Blocks.STONE)))
     val DIORITE_VAT = register(ModIdentifier("diorite_vat"), VatBlock(Blocks.DIORITE, false, FabricBlockSettings.copyOf(Blocks.STONE)))
